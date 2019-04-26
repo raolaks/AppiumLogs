@@ -1,0 +1,183 @@
+2019-04-22 17:25:06:553 - [Appium] Appium support for versions of node < 8 has been deprecated and will be removed in a future version. Please upgrade!
+2019-04-22 17:25:06:583 - [Appium] Welcome to Appium v1.8.1
+2019-04-22 17:25:06:584 - [Appium] Non-default server args:
+2019-04-22 17:25:06:585 - [Appium]   address: 127.0.0.1
+2019-04-22 17:25:06:585 - [Appium]   port: 4443
+2019-04-22 17:25:06:585 - [Appium]   callbackAddress: 127.0.0.1
+2019-04-22 17:25:06:586 - [Appium]   logTimestamp: true
+2019-04-22 17:25:06:586 - [Appium]   logNoColors: true
+2019-04-22 17:25:06:586 - [Appium]   selendroidPort: 4725
+2019-04-22 17:25:06:586 - [Appium]   chromedriverExecutable: /home/chef/chromedriver/chromedriver_2.41_linux_64
+2019-04-22 17:25:06:586 - [Appium]   defaultCapabilities: {
+2019-04-22 17:25:06:587 - [Appium]     orientation: PORTRAIT
+2019-04-22 17:25:06:587 - [Appium]     udid: emulator-5554
+2019-04-22 17:25:06:587 - [Appium]     noReset: true
+2019-04-22 17:25:06:587 - [Appium]     browserName: chrome
+2019-04-22 17:25:06:588 - [Appium]     maxTypingFrequency: 8
+2019-04-22 17:25:06:588 - [Appium]     newCommandTimeout: 0
+2019-04-22 17:25:06:588 - [Appium]     eventTimings: true
+2019-04-22 17:25:06:589 - [Appium]   }
+2019-04-22 17:25:06:589 - [Appium]   relaxedSecurityEnabled: true
+2019-04-22 17:25:06:590 - [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2019-04-22 17:25:06:590 - [Appium]   orientation: PORTRAIT
+2019-04-22 17:25:06:590 - [Appium]   udid: emulator-5554
+2019-04-22 17:25:06:590 - [Appium]   noReset: true
+2019-04-22 17:25:06:591 - [Appium]   browserName: chrome
+2019-04-22 17:25:06:591 - [Appium]   maxTypingFrequency: 8
+2019-04-22 17:25:06:591 - [Appium]   newCommandTimeout: 0
+2019-04-22 17:25:06:591 - [Appium]   eventTimings: true
+2019-04-22 17:25:06:644 - [Appium] Appium REST http interface listener started on 127.0.0.1:4443
+2019-04-22 17:25:06:694 - [HTTP] --> GET /wd/hub/status
+2019-04-22 17:25:06:694 - [HTTP] {}
+2019-04-22 17:25:06:698 - [debug] [MJSONWP] Calling AppiumDriver.getStatus() with args: []
+2019-04-22 17:25:06:713 - [debug] [MJSONWP] Responding to client with driver.getStatus() result: {"build":{"version":"1.8.1","revision":null}}
+2019-04-22 17:25:06:723 - [HTTP] <-- GET /wd/hub/status 200 24 ms - 83
+2019-04-22 17:25:06:723 - [HTTP] 
+2019-04-22 17:25:06:817 - [HTTP] --> POST /wd/hub/session
+2019-04-22 17:25:06:818 - [HTTP] {"desiredCapabilities":{"deviceName":"Android GoogleAPI Emulator","chromeOptions":{"androidPackage":"com.android.chrome"},"webdriver.remote.quietExceptions":false,"platform":"ANDROID","browserName":"chrome","version":"","proxy":{"proxyAutoconfigUrl":"http://127.0.0.1:19876/pac.js","proxyType":"PAC"},"noSign":true,"platformName":"Android","platformVersion":"8.1"}}
+2019-04-22 17:25:06:819 - [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"deviceName":"Android GoogleAPI Emulator","chromeOptions":{"androidPackage":"com.android.chrome"},"webdriver.remote.quietExceptions":false,"platform":"ANDROID","browserName":"chrome","version":"","proxy":{"proxyAutoconfigUrl":"http://127.0.0.1:19876/pac.js","proxyType":"PAC"},"noSign":true,"platformName":"Android","platformVersion":"8.1"},null,null]
+2019-04-22 17:25:06:820 - [debug] [BaseDriver] Event 'newSessionRequested' logged at 1555953906820 (10:25:06 GMT-0700 (PDT))
+2019-04-22 17:25:06:824 - [Appium] Consider setting 'automationName' capability to 'uiautomator2' on Android >= 6, since UIAutomator framework is not maintained anymore by the OS vendor.
+2019-04-22 17:25:06:825 - [Appium] Creating new AndroidDriver (v2.7.0) session
+2019-04-22 17:25:06:826 - [Appium] Capabilities:
+2019-04-22 17:25:06:826 - [Appium]   orientation: PORTRAIT
+2019-04-22 17:25:06:827 - [Appium]   udid: emulator-5554
+2019-04-22 17:25:06:827 - [Appium]   noReset: true
+2019-04-22 17:25:06:827 - [Appium]   browserName: chrome
+2019-04-22 17:25:06:828 - [Appium]   maxTypingFrequency: 8
+2019-04-22 17:25:06:828 - [Appium]   newCommandTimeout: 0
+2019-04-22 17:25:06:828 - [Appium]   eventTimings: true
+2019-04-22 17:25:06:829 - [Appium]   deviceName: Android GoogleAPI Emulator
+2019-04-22 17:25:06:830 - [Appium]   chromeOptions: {
+2019-04-22 17:25:06:830 - [Appium]     androidPackage: com.android.chrome
+2019-04-22 17:25:06:830 - [Appium]   }
+2019-04-22 17:25:06:831 - [Appium]   webdriver.remote.quietExceptions: false
+2019-04-22 17:25:06:831 - [Appium]   platform: ANDROID
+2019-04-22 17:25:06:831 - [Appium]   version: 
+2019-04-22 17:25:06:832 - [Appium]   proxy: {
+2019-04-22 17:25:06:833 - [Appium]     proxyAutoconfigUrl: http://127.0.0.1:19876/pac.js
+2019-04-22 17:25:06:833 - [Appium]     proxyType: PAC
+2019-04-22 17:25:06:833 - [Appium]   }
+2019-04-22 17:25:06:834 - [Appium]   noSign: true
+2019-04-22 17:25:06:834 - [Appium]   platformName: Android
+2019-04-22 17:25:06:834 - [Appium]   platformVersion: 8.1
+2019-04-22 17:25:06:839 - [Appium] Applying relaxed security to AndroidDriver as per server command line argument
+2019-04-22 17:25:06:844 - [debug] [BaseDriver] Creating session with MJSONWP desired capabilities: {"orientation":"PORTRAIT","...
+2019-04-22 17:25:06:858 - [BaseDriver] The following capabilities were provided, but are not recognized by appium: maxTypingFrequency, webdriver.remote.quietExceptions, platform, version, proxy.
+2019-04-22 17:25:06:860 - [BaseDriver] Session created with session id: 07e21973-7e1a-4987-8838-651d63c8e4bc
+2019-04-22 17:25:06:862 - [debug] [AndroidDriver] Getting Java version
+2019-04-22 17:25:07:014 - [AndroidDriver] Java version is: 1.7.0_181
+2019-04-22 17:25:07:015 - [AndroidDriver] We're going to run a Chrome-based session
+2019-04-22 17:25:07:015 - [AndroidDriver] Chrome-type package and activity are com.android.chrome and com.google.android.apps.chrome.Main
+2019-04-22 17:25:07:019 - [ADB] Checking whether adb is present
+2019-04-22 17:25:07:028 - [ADB] Found 1 'build-tools' folders under '/home/chef/android-sdk-linux' (newest first):
+2019-04-22 17:25:07:028 - [ADB]     /home/chef/android-sdk-linux/build-tools/25.0.2
+2019-04-22 17:25:07:029 - [ADB] Using adb from /home/chef/android-sdk-linux/platform-tools/adb
+2019-04-22 17:25:07:030 - [AndroidDriver] Retrieving device list
+2019-04-22 17:25:07:030 - [debug] [ADB] Trying to find a connected android device
+2019-04-22 17:25:07:032 - [debug] [ADB] Getting connected devices...
+2019-04-22 17:25:07:042 - [debug] [ADB] 1 device(s) connected
+2019-04-22 17:25:07:043 - [AndroidDriver] Using device: emulator-5554
+2019-04-22 17:25:07:046 - [debug] [ADB] Setting device id to emulator-5554
+2019-04-22 17:25:07:047 - [AndroidDriver] App file was not listed, instead we're going to run com.android.chrome directly on the device
+2019-04-22 17:25:07:047 - [debug] [AndroidDriver] Checking whether package is present on the device
+2019-04-22 17:25:07:049 - [debug] [ADB] Running '/home/chef/android-sdk-linux/platform-tools/adb -P 5037 -s emulator-5554 shell pm list packages com.android.chrome'
+2019-04-22 17:25:07:565 - [AndroidDriver] Starting Android session
+2019-04-22 17:25:07:568 - [debug] [ADB] Running '/home/chef/android-sdk-linux/platform-tools/adb -P 5037 -s emulator-5554 wait-for-device'
+2019-04-22 17:25:07:585 - [debug] [ADB] Running '/home/chef/android-sdk-linux/platform-tools/adb -P 5037 -s emulator-5554 shell echo ping'
+2019-04-22 17:25:07:614 - [debug] [AndroidDriver] Pushing settings apk to device...
+2019-04-22 17:25:07:616 - [debug] [ADB] Getting install status for io.appium.settings
+2019-04-22 17:25:07:617 - [debug] [ADB] Running '/home/chef/android-sdk-linux/platform-tools/adb -P 5037 -s emulator-5554 shell pm list packages io.appium.settings'
+2019-04-22 17:25:08:175 - [debug] [ADB] App is not installed
+2019-04-22 17:25:08:175 - [debug] [ADB] App '/home/chef/appium/appium-v1.8.1/node_modules/io.appium.settings/app/build/outputs/apk/settings_apk-debug.apk' not installed. Installing
+2019-04-22 17:25:08:177 - [debug] [ADB] Running '/home/chef/android-sdk-linux/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.build.version.sdk'
+2019-04-22 17:25:08:216 - [debug] [ADB] Current device property 'ro.build.version.sdk': 27
+2019-04-22 17:25:08:217 - [debug] [ADB] Device API level: 27
+2019-04-22 17:25:08:218 - [debug] [ADB] Running '/home/chef/android-sdk-linux/platform-tools/adb -P 5037 -s emulator-5554 install -g /home/chef/appium/appium-v1.8.1/node_modules/io.appium.settings/app/build/outputs/apk/settings_apk-debug.apk'
+2019-04-22 17:25:09:019 - [debug] [ADB] Install command stdout: 
+2019-04-22 17:25:09:022 - [debug] [ADB] Running '/home/chef/android-sdk-linux/platform-tools/adb -P 5037 -s emulator-5554 shell ps'
+2019-04-22 17:25:09:144 - [debug] [ADB] Device API level: 27
+2019-04-22 17:25:09:145 - [debug] [ADB] Running '/home/chef/android-sdk-linux/platform-tools/adb -P 5037 -s emulator-5554 shell am start -W -n io.appium.settings/.Settings -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2019-04-22 17:25:10:642 - [debug] [ADB] Device API level: 27
+2019-04-22 17:25:10:643 - [debug] [ADB] Running '/home/chef/android-sdk-linux/platform-tools/adb -P 5037 -s emulator-5554 shell appops set io.appium.settings android\:mock_location allow'
+2019-04-22 17:25:10:853 - [AndroidDriver] setDeviceLanguageCountry requires language or country.
+2019-04-22 17:25:10:855 - [AndroidDriver] Got language: 'null' and country: 'null'
+2019-04-22 17:25:10:858 - [debug] [Logcat] Starting logcat capture
+2019-04-22 17:25:11:085 - [debug] [AndroidDriver] Pushing unlock helper app to device...
+2019-04-22 17:25:11:086 - [debug] [ADB] Getting install status for io.appium.unlock
+2019-04-22 17:25:11:087 - [debug] [ADB] Running '/home/chef/android-sdk-linux/platform-tools/adb -P 5037 -s emulator-5554 shell pm list packages io.appium.unlock'
+2019-04-22 17:25:11:962 - [debug] [ADB] App is not installed
+2019-04-22 17:25:11:963 - [debug] [ADB] App '/home/chef/appium/appium-v1.8.1/node_modules/appium-unlock/bin/unlock_apk-debug.apk' not installed. Installing
+2019-04-22 17:25:11:963 - [debug] [ADB] Device API level: 27
+2019-04-22 17:25:11:964 - [debug] [ADB] Running '/home/chef/android-sdk-linux/platform-tools/adb -P 5037 -s emulator-5554 install -g /home/chef/appium/appium-v1.8.1/node_modules/appium-unlock/bin/unlock_apk-debug.apk'
+2019-04-22 17:25:12:861 - [debug] [ADB] Install command stdout: 
+2019-04-22 17:25:12:862 - [ADB] Getting device platform version
+2019-04-22 17:25:12:862 - [debug] [ADB] Running '/home/chef/android-sdk-linux/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.build.version.release'
+2019-04-22 17:25:12:932 - [debug] [ADB] Current device property 'ro.build.version.release': 8.1.0
+2019-04-22 17:25:12:933 - [debug] [ADB] Running '/home/chef/android-sdk-linux/platform-tools/adb -P 5037 -s emulator-5554 shell wm size'
+2019-04-22 17:25:13:541 - [debug] [ADB] Running '/home/chef/android-sdk-linux/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.product.model'
+2019-04-22 17:25:13:571 - [debug] [ADB] Current device property 'ro.product.model': Android SDK built for x86
+2019-04-22 17:25:13:573 - [debug] [ADB] Running '/home/chef/android-sdk-linux/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.product.manufacturer'
+2019-04-22 17:25:13:603 - [debug] [ADB] Current device property 'ro.product.manufacturer': Google
+2019-04-22 17:25:13:605 - [AndroidDriver] No app sent in, not parsing package/activity
+2019-04-22 17:25:13:606 - [debug] [AndroidDriver] No app capability. Assuming it is already on the device
+2019-04-22 17:25:13:607 - [debug] [AndroidBootstrap] Watching for bootstrap disconnect
+2019-04-22 17:25:13:608 - [debug] [ADB] Forwarding system: 4724 to device: 4724
+2019-04-22 17:25:13:609 - [debug] [ADB] Running '/home/chef/android-sdk-linux/platform-tools/adb -P 5037 -s emulator-5554 forward tcp\:4724 tcp\:4724'
+2019-04-22 17:25:13:624 - [debug] [UiAutomator] Starting UiAutomator
+2019-04-22 17:25:13:624 - [debug] [UiAutomator] Moving to state 'starting'
+2019-04-22 17:25:13:625 - [debug] [UiAutomator] Parsing uiautomator jar
+2019-04-22 17:25:13:626 - [debug] [UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+2019-04-22 17:25:13:627 - [debug] [ADB] Running '/home/chef/android-sdk-linux/platform-tools/adb -P 5037 -s emulator-5554 push /home/chef/appium/appium-v1.8.1/node_modules/appium-android-bootstrap/bootstrap/bin/AppiumBootstrap.jar /data/local/tmp/'
+2019-04-22 17:25:13:652 - [debug] [ADB] Attempting to kill all uiautomator processes
+2019-04-22 17:25:13:654 - [debug] [ADB] Getting all processes with uiautomator
+2019-04-22 17:25:13:654 - [debug] [ADB] Running '/home/chef/android-sdk-linux/platform-tools/adb -P 5037 -s emulator-5554 shell ps'
+2019-04-22 17:25:13:707 - [ADB] No uiautomator process found to kill, continuing...
+2019-04-22 17:25:13:708 - [debug] [UiAutomator] Starting UIAutomator
+2019-04-22 17:25:13:708 - [debug] [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","emulator-5554","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.android.chrome","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+2019-04-22 17:25:14:385 - [debug] [UiAutomator] Moving to state 'online'
+2019-04-22 17:25:14:389 - [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+2019-04-22 17:25:14:391 - [AndroidBootstrap] Android bootstrap socket is now connected
+2019-04-22 17:25:14:395 - [debug] [ADB] Running '/home/chef/android-sdk-linux/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys window'
+2019-04-22 17:25:14:405 - [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+2019-04-22 17:25:14:435 - [AndroidDriver] Screen already unlocked, doing nothing
+2019-04-22 17:25:14:436 - [AndroidDriver] Starting a chrome-based browser session
+2019-04-22 17:25:14:449 - [debug] [AndroidDriver] A port was not given, using random port: 8002
+2019-04-22 17:25:14:450 - [AndroidDriver] Cannot pass option com.android.chrome because Appium needs it to make chromeDriver work
+2019-04-22 17:25:14:452 - [debug] [Chromedriver] Changed state to 'starting'
+2019-04-22 17:25:14:453 - [Chromedriver] Set chromedriver binary as: /home/chef/chromedriver/chromedriver_2.41_linux_64
+2019-04-22 17:25:14:455 - [debug] [Chromedriver] Killing any old chromedrivers, running: pkill -15 -f "/home/chef/chromedriver/chromedriver_2.41_linux_64.*--port=8002"
+2019-04-22 17:25:14:471 - [Chromedriver] No old chromedrivers seemed to exist
+2019-04-22 17:25:14:471 - [debug] [Chromedriver] Cleaning any old adb forwarded port socket connections
+2019-04-22 17:25:14:472 - [debug] [ADB] List forwarding ports
+2019-04-22 17:25:14:472 - [debug] [ADB] Running '/home/chef/android-sdk-linux/platform-tools/adb -P 5037 -s emulator-5554 forward --list'
+2019-04-22 17:25:14:482 - [Chromedriver] Spawning chromedriver with: /home/chef/chromedriver/chromedriver_2.41_linux_64 --url-base=wd/hub --port=8002 --adb-port=5037 --verbose
+2019-04-22 17:25:14:498 - [debug] [Chromedriver] Chromedriver version: '2.41.578700'
+2019-04-22 17:25:14:501 - [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8002/wd/hub/status] with no body
+2019-04-22 17:25:14:525 - [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"\",\"status\":0,\"value\":{\"build\":{\"version\":\"alpha\"},\"os\":{\"arch\":\"x86_64\",\"name\":\"Linux\",\"version\":\"4.4.0-116-generic\"}}}"
+2019-04-22 17:25:14:527 - [debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://127.0.0.1:8002/wd/hub/session] with body: {"desiredCapabilities":{"chromeOptions":{"androidPackage":"com.android.chrome","androidDeviceSerial":"emulator-5554"}}}
+2019-04-22 17:25:18:503 - [debug] [Chromedriver] Webview version: 'Chrome/67.0.3396.87'
+2019-04-22 17:25:18:580 - [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"e271f3ae1f51bc96d481b1f840ba3bf2","status":0,"value":{"acceptInsecureCerts":false,"acceptSslCerts":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"chromedriverVersion":"2.41.578700 (2f1ed5f9343c13f73144538f15c00b370eda6706)"},"cssSelectorsEnabled":true,"databaseEnabled":false,"goog:chromeOptions":{"debuggerAddress":"localhost:37693"},"handlesAlerts":true,"hasTouchScreen":true,"javascriptEnabled":true,"locationContextEnabled":true,"mobileEmulationEnabled":false,"nativeEvents":true,"pageLoadStrategy":"normal","platform":"ANDROID","rotatable":false,"setWindowRect":false,"takesHeapSnapshot":true,"takesScreenshot":true,"unexpectedAlertBehaviour":"","version":"67.0.3396.87","webStorageEnabled":true}}
+2019-04-22 17:25:18:581 - [debug] [Chromedriver] Changed state to 'online'
+2019-04-22 17:25:18:582 - [debug] [AndroidDriver] Setting initial orientation to 'PORTRAIT'
+2019-04-22 17:25:18:585 - [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"orientation","params":{"orientation":"PORTRAIT","naturalOrientation":false}}
+2019-04-22 17:25:18:589 - [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"orientation","params":{"orientation":"PORTRAIT","naturalOrientation":false}}
+2019-04-22 17:25:18:590 - [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-04-22 17:25:18:590 - [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: orientation
+2019-04-22 17:25:18:939 - [debug] [AndroidBootstrap] Received command result from bootstrap
+2019-04-22 17:25:18:941 - [Appium] New AndroidDriver session created successfully, session 07e21973-7e1a-4987-8838-651d63c8e4bc added to master session list
+2019-04-22 17:25:18:943 - [debug] [BaseDriver] Event 'newSessionStarted' logged at 1555953918942 (10:25:18 GMT-0700 (PDT))
+2019-04-22 17:25:18:945 - [debug] [MJSONWP] Responding to client with driver.createSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"orientation":"PORTRAIT","udid":"emulator-5554","noReset":true,"browserName":"chrome","maxTypingFrequency":8,"newCommandTimeout":0,"eventTimings":true,"deviceName":"Android GoogleAPI Emulator","chromeOptions":{"androidPackage":"com.android.chrome"},"webdriver.remote.quietExceptions":false,"platform":"ANDROID","version":"","proxy":{"proxyAutoconfigUrl":"http://127.0.0.1:19876/pac.js","proxyType":"PAC"},"noSign":true,"platformName":"Android","platformVersion":"8.1"},"orientation":"PORTRAIT","udid":"emulator-5554","noReset":true,"browserName":"chrome","maxTypingFrequency":8,"newCommandTimeout":0,"eventTimings":true,"deviceName":"emulator-5554","chromeOptions":{"androidPackage":"com.android.chrome"},"webdriver.remote.quietExceptions":false,"version":"","proxy":{"proxyAutoconfigUrl":"http://127.0.0.1:19876/...
+2019-04-22 17:25:18:949 - [HTTP] <-- POST /wd/hub/session 200 12129 ms - 1316
+2019-04-22 17:25:18:949 - [HTTP] 
+2019-04-22 17:25:18:950 - [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Desired orientation: PORTRAIT
+2019-04-22 17:25:18:950 - [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Current rotation: ROTATION_0
+2019-04-22 17:25:18:951 - [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"Already in portrait mode."}
+2019-04-22 17:25:26:889 - [HTTP] --> POST /wd/hub/session/07e21973-7e1a-4987-8838-651d63c8e4bc/url
+2019-04-22 17:25:26:889 - [HTTP] {"url":"http://www.google.com"}
+2019-04-22 17:25:26:892 - [MJSONWP] Driver proxy active, passing request on via HTTP proxy
+2019-04-22 17:25:26:894 - [debug] [JSONWP Proxy] Proxying [POST /wd/hub/session/07e21973-7e1a-4987-8838-651d63c8e4bc/url] to [POST http://127.0.0.1:8002/wd/hub/session/e271f3ae1f51bc96d481b1f840ba3bf2/url] with body: {"url":"http://www.google.com"}
+2019-04-22 17:25:28:519 - [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"e271f3ae1f51bc96d481b1f840ba3bf2","status":0,"value":null}
+2019-04-22 17:25:28:520 - [JSONWP Proxy] Replacing sessionId e271f3ae1f51bc96d481b1f840ba3bf2 with 07e21973-7e1a-4987-8838-651d63c8e4bc
+2019-04-22 17:25:28:522 - [HTTP] <-- POST /wd/hub/session/07e21973-7e1a-4987-8838-651d63c8e4bc/url 200 1632 ms - 76
+2019-04-22 17:25:28:522 - [HTTP] 
